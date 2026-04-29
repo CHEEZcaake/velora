@@ -51,7 +51,7 @@ const translations = {
     "stats.satisfaction": "müşteri memnuniyeti",
     "intro.eyebrow": "Velora Deneyimi",
     "intro.title":
-      "Avrupa'nın en seçkin mekânlarında, markanıza ve davetinize uygun kusursuz catering kurgusu.",
+      "Avrupa'nın en seçkin mekânlarında, markanıza ve davetinize uygun kusursuz catering hizmetleri.",
     "intro.officeTitle": "Ofis etkinlikleri",
     "intro.officeText":
       "Toplantı, kutlama ve ekip buluşmaları için düzenli, şık ve pratik servis çözümleri",
