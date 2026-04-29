@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#09110f" />
-    <title>Velora Events</title>
+    <title id="page-title">Velora Events</title>
     <meta
+      id="page-description"
       name="description"
       content="İstanbul'da düğün, davet ve kurumsal etkinlikler için premium catering ve organizasyon çözümleri."
     />
@@ -26,50 +27,72 @@
             <span class="brand-mark">V</span>
             <span>
               <strong>Velora Events</strong>
-              <small>Luxury Catering &amp; Event Design</small>
+              <small data-i18n="brand.tagline">Luxury Catering &amp; Event Design</small>
             </span>
           </a>
-          <div class="nav-links">
-            <a href="#hizmetler">Hizmetler</a>
-            <a href="#paketler">Paketler</a>
-            <a href="#galeri">Galeri</a>
-            <a href="#yorumlar">Yorumlar</a>
-            <a href="#iletisim">İletişim</a>
+          <div class="nav-right">
+            <div class="nav-links">
+              <a href="#hizmetler" data-i18n="nav.services">Hizmetler</a>
+              <a href="#paketler" data-i18n="nav.packages">Paketler</a>
+              <a href="#galeri" data-i18n="nav.gallery">Galeri</a>
+              <a href="#yorumlar" data-i18n="nav.reviews">Yorumlar</a>
+              <a href="#iletisim" data-i18n="nav.contact">İletişim</a>
+            </div>
+            <div class="lang-switch">
+              <button
+                class="lang-trigger"
+                type="button"
+                aria-label="Language switcher"
+                aria-expanded="false"
+                aria-controls="lang-menu"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm6.93 9h-3.08a15.8 15.8 0 0 0-1.38-5.01A8.03 8.03 0 0 1 18.93 11ZM12 4.04c.83 1.2 1.86 3.57 2.32 6.96H9.68C10.14 7.61 11.17 5.24 12 4.04ZM4.26 13h3.08c.15 1.78.63 3.52 1.38 5.01A8.03 8.03 0 0 1 4.26 13Zm3.08-2H4.26a8.03 8.03 0 0 1 4.46-5.01A15.8 15.8 0 0 0 7.34 11Zm1.99 0a13.8 13.8 0 0 1 2.67-7.33A13.8 13.8 0 0 1 14.67 11H9.33Zm0 2h5.34A13.8 13.8 0 0 1 12 20.33 13.8 13.8 0 0 1 9.33 13Zm5.95 5.01c.75-1.49 1.23-3.23 1.38-5.01h3.08a8.03 8.03 0 0 1-4.46 5.01Z"
+                  />
+                </svg>
+              </button>
+              <div class="lang-menu" id="lang-menu">
+                <button class="lang-button is-active" type="button" data-lang="tr">TR</button>
+                <button class="lang-button" type="button" data-lang="en">EN</button>
+                <button class="lang-button" type="button" data-lang="nl">NL</button>
+              </div>
+            </div>
           </div>
         </nav>
 
         <div class="hero-content">
           <div class="hero-copy">
-            <p class="eyebrow">Catering ve organizasyon</p>
+            <p class="eyebrow" data-i18n="hero.eyebrow">Catering ve organizasyon</p>
             <br>
             <br>
-            <h1>Avrupa'nin en seckin catering hizmeti</h1>
+            <h1 data-i18n="hero.title">Avrupa'nın en seçkin catering hizmeti</h1>
             <br>
             <br>
             <div class="hero-actions">
-              <a class="button button-primary" href="#iletisim">Hızlı Teklif Al</a>
-              <a class="button button-secondary" href="#paketler">Paketleri İncele</a>
+              <a class="button button-primary" href="#iletisim" data-i18n="hero.primaryCta">Hızlı Teklif Al</a>
+              <a class="button button-secondary" href="#paketler" data-i18n="hero.secondaryCta">Paketleri İncele</a>
             </div>
             <ul class="trust-list">
-              <li>Kurumsal, özel ve konsept etkinlik uzmanlığı</li>
-              <li>Menü, dekor, ekip ve operasyon planlaması bir arada</li>
+              <li data-i18n="hero.trust1">Kurumsal, özel ve konsept etkinlik uzmanlığı</li>
+              <li data-i18n="hero.trust2">Menü, dekor, ekip ve operasyon planlaması bir arada</li>
             </ul>
           </div>
 
           <aside class="hero-card">
-            <p class="card-label">Bu sezon en cok secilen paket</p>
+            <p class="card-label" data-i18n="hero.cardLabel">Bu sezon en çok seçilen paket</p>
             <br>
-            <h2>Velora Signature Wedding Dinner</h2>
+            <h2 data-i18n="hero.cardTitle">Velora Signature Wedding Dinner</h2>
             <div class="price-row">
-              <strong>Kişi başı €38</strong>
-              <span>Minimum 60 kişi</span>
+              <strong data-i18n="hero.cardPrice">Kişi başı €38</strong>
+              <span data-i18n="hero.cardMin">Minimum 60 kişi</span>
             </div>
             <ul>
-              <li>Karşılama kokteyli ve servis akışı</li>
-              <li>Özel menü danışmanlığı ve şef dokunuşu</li>
-              <li>Masa üstü stilizasyon ve premium sunum</li>
+              <li data-i18n="hero.cardFeature1">Karşılama kokteyli ve servis akışı</li>
+              <li data-i18n="hero.cardFeature2">Özel menü danışmanlığı ve şef dokunuşu</li>
+              <li data-i18n="hero.cardFeature3">Masa üstü stilizasyon ve premium sunum</li>
             </ul>
-            <a class="inline-link" href="#iletisim">Bu paket için görüşme planlayın</a>
+            <a class="inline-link" href="#iletisim" data-i18n="hero.cardLink">Bu paket için görüşme planlayın</a>
           </aside>
         </div>
       </header>
@@ -78,118 +101,118 @@
         <section class="stats">
           <article>
             <strong>35+</strong>
-            <span>tamamlanan etkinlik</span>
+            <span data-i18n="stats.events">tamamlanan etkinlik</span>
           </article>
           <article>
             <strong>3500+</strong>
-            <span>ağırlanan misafir</span>
+            <span data-i18n="stats.guests">ağırlanan misafir</span>
           </article>
           <article>
             <strong>4.9/5</strong>
-            <span>müşteri memnuniyet</span>
+            <span data-i18n="stats.satisfaction">müşteri memnuniyeti</span>
           </article>
         </section>
 
         <section class="section intro-band">
           <div class="section-heading compact">
-            <p class="eyebrow">Velora Deneyimi</p>
-            <h2>Avrupa'nin en seçkin mekânlarında, markanıza ve davetinize uygun kusursuz catering kurgusu.</h2>
+            <p class="eyebrow" data-i18n="intro.eyebrow">Velora Deneyimi</p>
+            <h2 data-i18n="intro.title">Avrupa'nın en seçkin mekânlarında, markanıza ve davetinize uygun kusursuz catering hizmetleri.</h2>
           </div>
           <div class="intro-band-grid">
             <article class="mini-panel">
-              <strong>Ofis etkinlikleri</strong>
-              <span>Toplantı, kutlama ve ekip buluşmaları için düzenli, şık ve pratik servis çözümleri</span>
+              <strong data-i18n="intro.officeTitle">Ofis etkinlikleri</strong>
+              <span data-i18n="intro.officeText">Toplantı, kutlama ve ekip buluşmaları için düzenli, şık ve pratik servis çözümleri</span>
             </article>
             <article class="mini-panel">
-              <strong>Düğün &amp; Nişan</strong>
-              <span>Zarif masa düzeni, güçlü mutfak ve kusursuz operasyon</span>
+              <strong data-i18n="intro.weddingTitle">Düğün &amp; Nişan</strong>
+              <span data-i18n="intro.weddingText">Zarif masa düzeni, güçlü mutfak ve kusursuz operasyon</span>
             </article>
             <article class="mini-panel">
-              <strong>Kurumsal Etkinlikler</strong>
-              <span>Lansman, gala, workshop ve VIP ağırlama çözümleri</span>
+              <strong data-i18n="intro.corporateTitle">Kurumsal Etkinlikler</strong>
+              <span data-i18n="intro.corporateText">Lansman, gala, workshop ve VIP ağırlama çözümleri</span>
             </article>
           </div>
         </section>
 
         <section class="section" id="hizmetler">
           <div class="section-heading">
-            <p class="eyebrow">Hizmet Alanlarımız</p>
-            <h2>Her konsept için ayrı tasarlanmış servis ve organizasyon çözümleri</h2>
+            <p class="eyebrow" data-i18n="services.eyebrow">Hizmet Alanlarımız</p>
+            <h2 data-i18n="services.title">Her konsept için ayrı tasarlanmış servis ve organizasyon çözümleri</h2>
           </div>
           <div class="grid services-grid">
             <article class="panel service-card">
               <span class="panel-index">01</span>
-              <h3>Düğün ve Nişan Catering</h3>
-              <p>
+              <h3 data-i18n="services.weddingTitle">Düğün ve Nişan Catering</h3>
+              <p data-i18n="services.weddingText">
                 Açık büfe, kokteyl düzeni veya oturmalı davet kurgusu ile misafir
                 deneyimini baştan sona planlıyoruz.
               </p>
-              <a class="inline-link" href="#iletisim">Detaylı bilgi alın</a>
+              <a class="inline-link" href="#iletisim" data-i18n="services.weddingLink">Detaylı bilgi alın</a>
             </article>
             <article class="panel service-card">
               <span class="panel-index">02</span>
-              <h3>Kurumsal Lansman ve Gala</h3>
-              <p>
+              <h3 data-i18n="services.corporateTitle">Kurumsal Lansman ve Gala</h3>
+              <p data-i18n="services.corporateText">
                 Markanızın tonuna uygun menü, servis ekibi, karşılama akışı ve premium
                 sunum detayları hazırlıyoruz.
               </p>
-              <a class="inline-link" href="#iletisim">Kurumsal teklif isteyin</a>
+              <a class="inline-link" href="#iletisim" data-i18n="services.corporateLink">Kurumsal teklif isteyin</a>
             </article>
             <article class="panel service-card">
               <span class="panel-index">03</span>
-              <h3>Yat ve Boğaz Davetleri</h3>
-              <p>
-                İstanbul Boğazı'nda gerçekleştirdiğiniz davetlere özel kokteyl, finger
-                food ve şef istasyonu çözümleri sunuyoruz.
+              <br>
+              <h3 data-i18n="services.venueTitle">Özel Mekan Davetleri</h3>
+              <p data-i18n="services.venueText">
+                Seçtiğiniz mekâna özel menü, servis düzeni ve konsept kurgusu ile davetinizi baştan sona planlıyoruz.
               </p>
-              <a class="inline-link" href="#iletisim">Boğaz davetini planlayın</a>
+              <a class="inline-link" href="#iletisim" data-i18n="services.venueLink">Davetinizi planlayın</a>
             </article>
             <article class="panel service-card">
               <span class="panel-index">04</span>
-              <h3>Doğum Günü ve Özel Kutlamalar</h3>
-              <p>
+              <h3 data-i18n="services.birthdayTitle">Doğum Günü ve Özel Kutlamalar</h3>
+              <p data-i18n="services.birthdayText">
                 Butik kutlamalarda samimi ama etkileyici bir sofra ve servis dili
                 oluşturuyoruz.
               </p>
-              <a class="inline-link" href="#iletisim">Kutlama tasarlayın</a>
+              <a class="inline-link" href="#iletisim" data-i18n="services.birthdayLink">Kutlama tasarlayın</a>
             </article>
           </div>
         </section>
 
         <section class="section spotlight" id="paketler">
           <div class="section-heading">
-            <p class="eyebrow">Öne Çıkan Paketler</p>
-            <h2>Bütçenize ve davet seviyenize göre şekillenen üç ana servis yaklaşımı</h2>
+            <p class="eyebrow" data-i18n="packages.eyebrow">Öne Çıkan Paketler</p>
+            <h2 data-i18n="packages.title">Bütçenize ve davet seviyenize göre şekillenen üç ana servis yaklaşımı</h2>
           </div>
           <div class="grid package-grid">
             <article class="menu-card">
-              <p class="menu-tag">Essential</p>
-              <h3>Business Lunch</h3>
-              <div class="package-price">Kişi başı €24</div>
+              <p class="menu-tag" data-i18n="packages.basicTag">Essential</p>
+              <h3 data-i18n="packages.basicTitle">Business Lunch</h3>
+              <div class="package-price" data-i18n="packages.basicPrice">Kişi başı €24</div>
               <ul>
-                <li>Ana yemek + yan ürün + tatlı</li>
-                <li>Dugun ve ofis toplantilari icin ideal</li>
-                <li>Hızlı kurulum ve zamanında teslim</li>        
+                <li data-i18n="packages.basicFeature1">Ana yemek + yan ürün + tatlı</li>
+                <li data-i18n="packages.basicFeature2">Düğün ve ofis toplantıları için ideal</li>
+                <li data-i18n="packages.basicFeature3">Hızlı kurulum ve zamanında teslim</li>        
               </ul>
             </article>
             <article class="menu-card featured">
-              <p class="menu-tag">En Çok Tercih Edilen</p>
-              <h3>Velora Signature</h3>
-              <div class="package-price">Kişi başı €38</div>
+              <p class="menu-tag" data-i18n="packages.featuredTag">En Çok Tercih Edilen</p>
+              <h3 data-i18n="packages.featuredTitle">Velora Signature</h3>
+              <div class="package-price" data-i18n="packages.featuredPrice">Kişi başı €38</div>
               <ul>
-                <li>Karşılama kokteyli ve iki aşamalı servis</li>
-                <li>Canlı istasyon veya şef sunumu</li>
-                <li>Premium ekipman ve masa üstü stilizasyon</li>
+                <li data-i18n="packages.featuredFeature1">Karşılama kokteyli ve iki aşamalı servis</li>
+                <li data-i18n="packages.featuredFeature2">Canlı istasyon veya şef sunumu</li>
+                <li data-i18n="packages.featuredFeature3">Premium ekipman ve masa üstü stilizasyon</li>
               </ul>
             </article>
             <article class="menu-card">
-              <p class="menu-tag">Prestige</p>
-              <h3>Luxury Wedding Table</h3>
-              <div class="package-price">Kişi başı €56</div>
+              <p class="menu-tag" data-i18n="packages.prestigeTag">Prestige</p>
+              <h3 data-i18n="packages.prestigeTitle">Luxury Wedding Table</h3>
+              <div class="package-price" data-i18n="packages.prestigePrice">Kişi başı €56</div>
               <ul>
-                <li>Özel menü danışmanlığı ve kişiselleştirme</li>
-                <li>VIP servis ekibi ve detay operasyon yönetimi</li>
-                <li>Gece sonu ikram ve özel sunum desteği</li>
+                <li data-i18n="packages.prestigeFeature1">Özel menü danışmanlığı ve kişiselleştirme</li>
+                <li data-i18n="packages.prestigeFeature2">VIP servis ekibi ve detay operasyon yönetimi</li>
+                <li data-i18n="packages.prestigeFeature3">Gece sonu ikram ve özel sunum desteği</li>
               </ul>
             </article>
           </div>
@@ -198,9 +221,9 @@
         <section class="section experience-grid-wrap">
           <div class="experience-grid">
             <article class="experience-copy panel dark-panel">
-              <p class="eyebrow">Neden Velora</p>
-              <h2>Yalnızca yemek değil, davetin ritmini tasarlayan bir ekip.</h2>
-              <p>
+              <p class="eyebrow" data-i18n="why.eyebrow">Neden Velora</p>
+              <h2 data-i18n="why.title">Yalnızca yemek değil, davetin ritmini tasarlayan bir ekip.</h2>
+              <p data-i18n="why.text">
                 Menüden masa düzenine, servis akışından misafir karşılama deneyimine kadar
                 tüm katmanları tek elden yönetiyor; organizasyon gününde sizi detaylarla
                 değil anın keyfiyle baş başa bırakıyoruz.
@@ -208,10 +231,10 @@
             </article>
             <article class="experience-list panel">
               <ul class="feature-list">
-                <li>Özel mekâna göre uyarlanmış menü tasarımı</li>
-                <li>Şef, servis ve operasyon ekibi planlaması</li>
-                <li>Premium ekipman ve sunum dili</li>
-                <li>Marka veya davet konseptine uygun atmosfer kurgusu</li>
+                <li data-i18n="why.feature1">Özel mekâna göre uyarlanmış menü tasarımı</li>
+                <li data-i18n="why.feature2">Şef, servis ve operasyon ekibi planlaması</li>
+                <li data-i18n="why.feature3">Premium ekipman ve sunum dili</li>
+                <li data-i18n="why.feature4">Marka veya davet konseptine uygun atmosfer kurgusu</li>
               </ul>
             </article>
           </div>
@@ -219,118 +242,115 @@
 
         <section class="section process" id="surec">
           <div class="section-heading">
-            <p class="eyebrow">Çalışma Şeklimiz</p>
-            <h2>Hızlı başlayan, net ilerleyen ve güven veren planlama süreci</h2>
+            <p class="eyebrow" data-i18n="process.eyebrow">Çalışma Şeklimiz</p>
+            <h2 data-i18n="process.title">Hızlı başlayan, net ilerleyen ve güven veren planlama süreci</h2>
           </div>
           <div class="timeline">
             <article>
               <span>1</span>
-              <h3>Kısa Brifing</h3>
-              <p>Tarih, kişi sayısı, mekân, servis tipi ve beklentileri ilk görüşmede netleştiriyoruz.</p>
+              <h3 data-i18n="process.step1Title">Kısa Brifing</h3>
+              <p data-i18n="process.step1Text">Tarih, kişi sayısı, mekân, servis tipi ve beklentileri ilk görüşmede netleştiriyoruz.</p>
             </article>
             <article>
               <span>2</span>
-              <h3>Konsept ve Menü</h3>
-              <p>Davetin tonu, menü yapısı, ekip ihtiyacı ve operasyon akışı için size özel kurgu hazırlıyoruz.</p>
+              <h3 data-i18n="process.step2Title">Konsept ve Menü</h3>
+              <p data-i18n="process.step2Text">Davetin tonu, menü yapısı, ekip ihtiyacı ve operasyon akışı için size özel kurgu hazırlıyoruz.</p>
             </article>
             <article>
               <span>3</span>
-              <h3>Uygulama Günü</h3>
-              <p>Kurulum, servis, koordinasyon ve kapanış akışını tek merkezden yöneterek kusursuz teslim sağlıyoruz.</p>
+              <h3 data-i18n="process.step3Title">Uygulama Günü</h3>
+              <p data-i18n="process.step3Text">Kurulum, servis, koordinasyon ve kapanış akışını tek merkezden yöneterek kusursuz teslim sağlıyoruz.</p>
             </article>
           </div>
         </section>
 
         <section class="section gallery-wrap" id="galeri">
           <div class="section-heading">
-            <p class="eyebrow">İlham Veren Kareler</p>
-            <h2>Gerçek etkinlik hissi veren görsel bir vitrin</h2>
-            <p>Şimdilik temsili bloklarla hazırladım; sonraki adımda gerçek etkinlik fotoğraflarınızı yerleştirebiliriz.</p>
+            <p class="eyebrow" data-i18n="gallery.eyebrow">İlham Veren Kareler</p>
+            <h2 data-i18n="gallery.title">Gerçek etkinlik hissi veren görsel bir vitrin</h2>
+            <p data-i18n="gallery.text">Şimdilik temsili bloklarla hazırladım; sonraki adımda gerçek etkinlik fotoğraflarınızı yerleştirebiliriz.</p>
           </div>
           <div class="gallery-grid">
-            <article class="gallery-card tall">
-              <span>Boğaz'da kokteyl daveti</span>
+            <article class="gallery-card tall birthday-card">
+              <span data-i18n="gallery.birthday">Doğum Günü Masa düzeni</span>
             </article>
-            <article class="gallery-card wide">
-              <span>Düğün yemeği masa düzeni</span>
+            <article class="gallery-card wide wedding-table-card">
+              <span data-i18n="gallery.wedding">Düğün yemeği masa düzeni</span>
             </article>
-            <article class="gallery-card">
-              <span>Kurumsal lansman servisi</span>
+            <article class="gallery-card corporate-launch-card">
+              <span data-i18n="gallery.corporate">Kurumsal lansman servisi</span>
             </article>
-            <article class="gallery-card">
-              <span>Chef table sunumu</span>
-            </article>
-            <article class="gallery-card wide">
-              <span>Butik kutlama atmosferi</span>
+            <article class="gallery-card self-service-card">
+              <span data-i18n="gallery.selfService">Self Servis Deneyimi</span>
             </article>
           </div>
         </section>
 
         <section class="section testimonial-wrap" id="yorumlar">
           <div class="section-heading">
-            <p class="eyebrow">Misafir Yorumları</p>
-            <h2>Güven veren deneyim, güçlü operasyon ve hatırlanan lezzet</h2>
+            <p class="eyebrow" data-i18n="reviews.eyebrow">Misafir Yorumları</p>
+            <h2 data-i18n="reviews.title">Güven veren deneyim, güçlü operasyon ve hatırlanan lezzet</h2>
           </div>
           <div class="reviews-grid">
             <article class="review-card">
-              <p>
+              <p data-i18n="reviews.review1Text">
                 "Düğün organizasyonumuzda servis kalitesi, sunum detayları ve zaman yönetimi
                 beklentimizin üzerindeydi."
               </p>
               <strong>Selin Arat</strong>
-              <span>Özel davet sahibi</span>
+              <span data-i18n="reviews.review1Role">Özel davet sahibi</span>
             </article>
             <article class="review-card">
-              <p>
+              <p data-i18n="reviews.review2Text">
                 "Kurumsal lansman gecemizde markamıza uygun, çok temiz ve çok şık bir catering
                 deneyimi sundular."
               </p>
               <strong>Mert K.</strong>
-              <span>Marka yöneticisi</span>
+              <span data-i18n="reviews.review2Role">Marka yöneticisi</span>
             </article>
             <article class="review-card">
-              <p>
+              <p data-i18n="reviews.review3Text">
                 "Boğaz davetimizde her detay düşünülmüştü. Hem lezzet hem operasyon tarafında
                 çok profesyonel bir ekipti."
               </p>
               <strong>Elif ve Can</strong>
-              <span>Nişan organizasyonu</span>
+              <span data-i18n="reviews.review3Role">Nişan organizasyonu</span>
             </article>
           </div>
         </section>
 
         <section class="section cta" id="iletisim">
           <div class="cta-copy">
-            <p class="eyebrow">İletişim</p>
-            <h2>Hayal ettiğiniz daveti birlikte planlayalım.</h2>
-            <p>
+            <p class="eyebrow" data-i18n="contact.eyebrow">İletişim</p>
+            <h2 data-i18n="contact.title">Hayal ettiğiniz daveti birlikte planlayalım.</h2>
+            <p data-i18n="contact.text">
               Tarih, kişi sayısı ve davet tipinizi paylaşın; size uygun servis yaklaşımını
               ve ön teklif çerçevesini kısa sürede hazırlayalım.
             </p>
             <div class="contact-points">
-              <span>İstanbul merkezli hizmet</span>
-              <span>24 saat içinde geri dönüş</span>
-              <span>WhatsApp ve telefon entegrasyonu eklenebilir</span>
+              <span data-i18n="contact.point1">İstanbul merkezli hizmet</span>
+              <span data-i18n="contact.point2">24 saat içinde geri dönüş</span>
+              <span data-i18n="contact.point3">WhatsApp ve telefon entegrasyonu eklenebilir</span>
             </div>
           </div>
           <form class="contact-card">
             <label>
-              Ad Soyad
-              <input type="text" placeholder="Örnek: Ayşe Yılmaz" />
+              <span data-i18n="contact.nameLabel">Ad Soyad</span>
+              <input type="text" data-i18n-placeholder="contact.namePlaceholder" placeholder="Örnek: Ayşe Yılmaz" />
             </label>
             <label>
-              Etkinlik Tipi
-              <input type="text" placeholder="Düğün / kurumsal davet / özel kutlama" />
+              <span data-i18n="contact.typeLabel">Etkinlik Tipi</span>
+              <input type="text" data-i18n-placeholder="contact.typePlaceholder" placeholder="Düğün / kurumsal davet / özel kutlama" />
             </label>
             <label>
-              Kişi Sayısı
-              <input type="text" placeholder="Örnek: 120 kişi" />
+              <span data-i18n="contact.guestsLabel">Kişi Sayısı</span>
+              <input type="text" data-i18n-placeholder="contact.guestsPlaceholder" placeholder="Örnek: 120 kişi" />
             </label>
             <label>
-              İletişim
-              <input type="text" placeholder="Telefon veya e-posta" />
+              <span data-i18n="contact.contactLabel">İletişim</span>
+              <input type="text" data-i18n-placeholder="contact.contactPlaceholder" placeholder="Telefon veya e-posta" />
             </label>
-            <button type="button" class="button button-primary">Ön Teklif İste</button>
+            <button type="button" class="button button-primary" data-i18n="contact.button">Ön Teklif İste</button>
           </form>
         </section>
       </main>
