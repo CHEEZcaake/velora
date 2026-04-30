@@ -156,7 +156,7 @@ const translations = {
     meta: {
       title: "Velora Events",
       description:
-        "Premium catering and event design solutions for weddings, private celebrations, and corporate events in Istanbul.",
+        "Premium catering and event design solutions for weddings, private celebrations, and corporate events in Europe.",
     },
     "brand.tagline": "Luxury Catering & Event Design",
     "nav.services": "Services",
@@ -271,7 +271,7 @@ const translations = {
     "contact.title": "Let's plan the event you have in mind together.",
     "contact.text":
       "Share your date, guest count, and event type, and we will quickly prepare the right service approach and a preliminary offer framework.",
-    "contact.point1": "Istanbul-based service",
+    "contact.point1": "Europe-based service",
     "contact.point2": "Response within 24 hours",
     "contact.point3": "WhatsApp and phone integration can be added",
     "contact.nameLabel": "Full Name",
@@ -288,7 +288,7 @@ const translations = {
     meta: {
       title: "Velora Events",
       description:
-        "Premium catering- en eventdesignoplossingen voor bruiloften, privévieringen en bedrijfsevenementen in Istanbul.",
+        "Premium catering- en eventdesignoplossingen voor bruiloften, privévieringen en bedrijfsevenementen in Europe.",
     },
     "brand.tagline": "Luxe Catering & Eventdesign",
     "nav.services": "Diensten",
@@ -403,7 +403,7 @@ const translations = {
     "contact.title": "Laten we samen het evenement plannen dat u voor ogen heeft.",
     "contact.text":
       "Deel uw datum, aantal gasten en eventtype, dan werken wij snel een passende service-aanpak en eerste offerte uit.",
-    "contact.point1": "Service vanuit Istanbul",
+    "contact.point1": "Service vanuit Europa",
     "contact.point2": "Reactie binnen 24 uur",
     "contact.point3": "WhatsApp- en telefoonintegratie kan worden toegevoegd",
     "contact.nameLabel": "Volledige Naam",
