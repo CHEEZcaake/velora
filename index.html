@@ -333,24 +333,53 @@
               <span data-i18n="contact.point3">WhatsApp ve telefon entegrasyonu eklenebilir</span>
             </div>
           </div>
-          <form class="contact-card">
+          <form
+            class="contact-card"
+            action="https://formspree.io/f/xwvyegwk"
+            method="POST"
+          >
             <label>
               <span data-i18n="contact.nameLabel">Ad Soyad</span>
-              <input type="text" data-i18n-placeholder="contact.namePlaceholder" placeholder="Örnek: Ayşe Yılmaz" />
+              <input
+                type="text"
+                name="ad_soyad"
+                required
+                data-i18n-placeholder="contact.namePlaceholder"
+                placeholder="Örnek: Ayşe Yılmaz"
+              />
             </label>
             <label>
               <span data-i18n="contact.typeLabel">Etkinlik Tipi</span>
-              <input type="text" data-i18n-placeholder="contact.typePlaceholder" placeholder="Düğün / kurumsal davet / özel kutlama" />
+              <input
+                type="text"
+                name="etkinlik_tipi"
+                required
+                data-i18n-placeholder="contact.typePlaceholder"
+                placeholder="Düğün / kurumsal davet / özel kutlama"
+              />
             </label>
             <label>
               <span data-i18n="contact.guestsLabel">Kişi Sayısı</span>
-              <input type="text" data-i18n-placeholder="contact.guestsPlaceholder" placeholder="Örnek: 120 kişi" />
+              <input
+                type="text"
+                name="kisi_sayisi"
+                required
+                data-i18n-placeholder="contact.guestsPlaceholder"
+                placeholder="Örnek: 120 kişi"
+              />
             </label>
             <label>
               <span data-i18n="contact.contactLabel">İletişim</span>
-              <input type="text" data-i18n-placeholder="contact.contactPlaceholder" placeholder="Telefon veya e-posta" />
+              <input
+                type="text"
+                name="iletisim"
+                required
+                data-i18n-placeholder="contact.contactPlaceholder"
+                placeholder="Telefon veya e-posta"
+              />
             </label>
-            <button type="button" class="button button-primary" data-i18n="contact.button">Ön Teklif İste</button>
+            <input type="hidden" name="_subject" value="Velora website yeni teklif talebi" />
+            <button type="submit" class="button button-primary" data-i18n="contact.button">Ön Teklif İste</button>
           </form>
         </section>
       </main>
