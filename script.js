@@ -24,7 +24,7 @@ const translations = {
     meta: {
       title: "Velora Events",
       description:
-        "İstanbul'da düğün, davet ve kurumsal etkinlikler için premium catering ve organizasyon çözümleri.",
+        "Avrupa'da düğün, davet ve kurumsal etkinlikler için premium catering ve organizasyon çözümleri.",
     },
     "brand.tagline": "Luxury Catering & Event Design",
     "nav.services": "Hizmetler",
@@ -133,13 +133,13 @@ const translations = {
       '"Kurumsal lansman gecemizde markamıza uygun, çok temiz ve çok şık bir catering deneyimi sundular."',
     "reviews.review2Role": "Marka yöneticisi",
     "reviews.review3Text":
-      '"Boğaz davetimizde her detay düşünülmüştü. Hem lezzet hem operasyon tarafında çok profesyonel bir ekipti."',
+      '"Özel davetimizde her detay düşünülmüştü. Hem lezzet hem operasyon tarafında çok profesyonel bir ekipti."',
     "reviews.review3Role": "Nişan organizasyonu",
     "contact.eyebrow": "İletişim",
     "contact.title": "Hayal ettiğiniz daveti birlikte planlayalım.",
     "contact.text":
       "Tarih, kişi sayısı ve davet tipinizi paylaşın; size uygun servis yaklaşımını ve ön teklif çerçevesini kısa sürede hazırlayalım.",
-    "contact.point1": "İstanbul merkezli hizmet",
+    "contact.point1": "Avrupa merkezli hizmet",
     "contact.point2": "24 saat içinde geri dönüş",
     "contact.point3": "WhatsApp ve telefon entegrasyonu eklenebilir",
     "contact.nameLabel": "Ad Soyad",
@@ -265,7 +265,7 @@ const translations = {
       '"At our corporate launch, they delivered a very clean and stylish catering experience aligned with our brand."',
     "reviews.review2Role": "Brand manager",
     "reviews.review3Text":
-      '"Every detail of our Bosphorus event was carefully considered. They were highly professional in both flavor and operations."',
+      '"Every detail of our private event was carefully considered. They were highly professional in both flavor and operations."',
     "reviews.review3Role": "Engagement event",
     "contact.eyebrow": "Contact",
     "contact.title": "Let's plan the event you have in mind together.",
@@ -288,7 +288,7 @@ const translations = {
     meta: {
       title: "Velora Events",
       description:
-        "Premium catering- en eventdesignoplossingen voor bruiloften, privévieringen en bedrijfsevenementen in Europe.",
+        "Premium catering- en eventdesignoplossingen voor bruiloften, privévieringen en bedrijfsevenementen in Europa.",
     },
     "brand.tagline": "Luxe Catering & Eventdesign",
     "nav.services": "Diensten",
